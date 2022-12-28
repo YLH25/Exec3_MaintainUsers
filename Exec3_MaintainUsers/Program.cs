@@ -15,6 +15,7 @@ namespace Exec3_MaintainUsers
 {
     internal class Program
     {
+        //123
         static void Main(string[] args)
         {
             SelectUsers();
@@ -31,7 +32,7 @@ namespace Exec3_MaintainUsers
                 .Build();
             new SqlDbHelper("default").ExecuteNonQuery(sql, parameters);
         }
-
+        //123
         public static void DeleteUser(int num)
         {
             string sql = "delete from Users where id=@id";
