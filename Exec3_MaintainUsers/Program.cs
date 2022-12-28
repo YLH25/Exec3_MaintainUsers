@@ -32,7 +32,7 @@ namespace Exec3_MaintainUsers
                 .Build();
             new SqlDbHelper("default").ExecuteNonQuery(sql, parameters);
         }
-
+        //123
         public static void DeleteUser(int num)
         {
             string sql = "delete from Users where id=@id";
